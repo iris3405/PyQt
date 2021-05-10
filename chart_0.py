@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QWidget
 class ChartWidget(QWidget):
     def __init__(self, parent=None, ticker="BTC"):
         super().__init__(parent)
-        uic.loadUi("chart.ui")
+        uic.loadUi("0510/chart.ui")
         self.ticker = ticker
 
 if __name__ == "__main__":
